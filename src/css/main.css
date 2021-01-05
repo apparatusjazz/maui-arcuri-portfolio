@@ -1,0 +1,25 @@
+.block-row {
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.description {
+    padding: 10px 0 10px 0;
+}
+
+.experience-img {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.experience-card {
+    padding: 15px 0 15px 0;
+}
+
+.personal-img {
+    width: 270px;
+    float: right;
+}

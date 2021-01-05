@@ -1,28 +1,28 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-
+import '../css/main.css';
 const ExperienceCard = (props) => {
 
     return (
         <>
-            <Container>
+            <Container className="experience-card">
                 <Row>
                     <Col md="auto" lg="auto" sm="auto" xs="auto">
                         <img className="experience-img" src={props.image} />
                     </Col>
                     <Col>
-                        <Row>
-                            <span>{props.company}</span>
-                            <span>{props.date}</span>
+                        <Row className="block-row">
+                            <span className="left">{props.company}</span>
+                            <span className="right">{props.date}</span>
                         </Row>
-                        <Row>
-                            <span>{props.position}</span>
-                            <span>{props.location}</span>
+                        <Row className="block-row">
+                            <span className="left">{props.position}</span>
+                            <span className="right">{props.location}</span>
                         </Row>
-                        <Row>
+                        <Row className="description">
                             {props.description}
                         </Row>
-                        <Row>
+                        <Row className="tech">
                             Technologies: {props.tech}
                         </Row>
                     </Col>

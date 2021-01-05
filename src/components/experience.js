@@ -7,6 +7,7 @@ const Experience = (props) => {
     return (
         <>
             <Container>
+                <h3>Experience:</h3>
                 <ExperienceCard
                     image="webmd.png"
                     company="WebMD"
@@ -20,7 +21,7 @@ const Experience = (props) => {
                     tech="Javascript ES6, CSS, HTML, jQuery, UDeploy, Jenkins, Gitlab, Jira"
                 />
                 <ExperienceCard
-                    image=""
+                    image="cipass.png"
                     company="CiPASS"
                     date="Summer 2019"
                     position="Virtual Reality Research Intern"
