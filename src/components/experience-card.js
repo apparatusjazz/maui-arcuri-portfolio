@@ -7,24 +7,29 @@ const ExperienceCard = (props) => {
         <>
             <Container className="experience-card">
                 <Row>
-                    <Col md="auto" lg="auto" sm="auto" xs="auto">
-                        <img className="experience-img" src={props.image} />
-                    </Col>
+
                     <Col>
-                        <Row className="block-row">
-                            <span className="left">{props.company}</span>
-                            <span className="right">{props.date}</span>
+                        <Row>
+                            <Col md="auto" lg="auto" sm="auto" xs="auto">
+                                <img className="experience-img" src={props.image} />
+                            </Col>
+                            <Col>
+                                <Row className="block-row">
+                                    <span className="left">{props.company}</span>
+                                    <span className="right">{props.date}</span>
+                                </Row>
+                                <Row className="block-row">
+                                    <span className="left">{props.position}</span>
+                                    <span className="right">{props.location}</span>
+                                </Row>
+                            </Col>
                         </Row>
-                        <Row className="block-row">
-                            <span className="left">{props.position}</span>
-                            <span className="right">{props.location}</span>
-                        </Row>
-                        <Row className="description">
+                        <div className="description">
                             {props.description}
-                        </Row>
-                        <Row className="tech">
+                        </div>
+                        <div className="tech">
                             Technologies: {props.tech}
-                        </Row>
+                        </div>
                     </Col>
                 </Row>
             </Container>
