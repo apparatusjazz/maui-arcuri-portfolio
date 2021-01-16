@@ -6,12 +6,13 @@ const Projects = (props) => {
 
     return (
         <>
-            <Container className="">
+            <Container id="projects">
                 <h3>Projects:</h3>
                 <div className="projects">
                     <Row>
                         <Col lg={6} md={6}>
                             <ProjectCard
+                                key="jazzify"
                                 image="jazzify.png"
                                 title="Jazzify"
                                 content="Wep app that generates uniques jazz recommendations based on your
@@ -24,10 +25,11 @@ const Projects = (props) => {
                         </Col>
                         <Col lg={6} md={6}>
                             <ProjectCard
+                                key="musaic"
                                 image="musaic.png"
                                 title="Musaic"
-                                content="Soundcloud-like music sharing website. Project leader, owner of tracks / audio, design, main page. For
-                            Website Design class."
+                                content="Soundcloud-like music sharing website. Project leader, owner of tracks / audio, design, main page. 
+                                Made for Website Design class."
                                 github="https://github.com/CSC47300/Final-Project"
                                 link="https://musaic-69ec1.web.app/"
                                 tech={["React", "Wavesurfer.js", "Bootstrap", "Cloud Firestore", "Firebase"]}
@@ -38,6 +40,7 @@ const Projects = (props) => {
                     <Row>
                         <Col lg={6} md={6}>
                             <ProjectCard
+                                key="transcribifi"
                                 image="spotifytranscriber.gif"
                                 title="Spotify Transcriber Tool"
                                 content="A Spotify playback tool with extra tools to help musicians transcribe music. 
@@ -48,6 +51,7 @@ const Projects = (props) => {
                         </Col>
                         <Col lg={6} md={6}>
                             <ProjectCard
+                                key="jazzapparatus"
                                 image="jazzapparatus.png"
                                 title="Jazz Apparatus"
                                 content="Music gear documentation website with a focus on jazz guitarists. A project I created in high school 
@@ -61,11 +65,12 @@ const Projects = (props) => {
                     <Row>
                         <Col lg={6} md={6}>
                             <ProjectCard
+                                key="aorablue"
                                 image="aorablue.png"
                                 title="Aora Blue"
                                 content="My Youtube channel where I've previously made jazz covers of anime and video game music."
                                 link="https://www.youtube.com/channel/UC5B7gAB_pt6MwuIoIyWABWA"
-                                tech={["Youtube", "Ableton", "Reaper", "Premiere", "Native Instruments"]}
+                                tech={["Youtube", "Ableton", "Reaper", "Premiere"]}
                             />
                         </Col>
                     </Row>

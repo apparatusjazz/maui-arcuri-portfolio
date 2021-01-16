@@ -6,12 +6,13 @@ const Experience = (props) => {
 
     return (
         <>
-            <Container>
+            <Container id="experience">
                 <h3>Experience:</h3>
                 <ExperienceCard
+                    key="webmd"
                     image="webmd.png"
                     company="WebMD"
-                    date="Jan-Aug 2020"
+                    date="Feb-Aug 2020"
                     position="Software Development Intern"
                     location="New York, NY"
                     description="My main role was converting jquery based javascript codebase to modern ES6 for
@@ -21,9 +22,10 @@ const Experience = (props) => {
                     tech="Javascript ES6, CSS, HTML, jQuery, UDeploy, Jenkins, Gitlab, Jira"
                 />
                 <ExperienceCard
+                    key="cipass"
                     image="cipass.png"
                     company="CiPASS"
-                    date="Summer 2019"
+                    date="Jun-Aug 2019"
                     position="Virtual Reality Research Intern"
                     location="New York, NY"
                     description="I continued development of a virtual reality simulation of the NYC subway
