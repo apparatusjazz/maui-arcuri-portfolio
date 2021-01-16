@@ -1,9 +1,13 @@
+body {
+}
+
 .block-row {
     display: block;
 }
 
 .right {
     float: right;
+    padding-right: 15px;
 }
 
 .description {
@@ -20,6 +24,55 @@
 }
 
 .personal-img {
-    width: 270px;
+    width: 250px;
     float: right;
+}
+
+.project-card {
+    /* max-width: 330px; */
+    /* border: solid;
+    border-radius: 10px; */
+    /* margin: 20px 20px 20px 20px;
+    padding: 10px 30px 10px 30px; */
+    max-width: 450px;
+    padding: 5px 5px 5px 5px;
+}
+
+.project-img {
+    /* width: 450px; */
+    max-width:100%;
+    max-height:100%;
+}
+
+.projects {
+    /* display: flex; */
+}
+
+.project-tech {
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(196, 196, 196);
+    z-index: 1;
+}
+
+.link {
+    padding: 5px;
+    color: black;
+}
+
+.page-links {
+    padding-top: 8px;
+    text-align: center;
 }
