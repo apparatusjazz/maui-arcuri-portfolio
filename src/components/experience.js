@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import Exp from './exp';
 import ExperienceCard from './experience-card';
 
 const Experience = (props) => {
@@ -8,7 +9,29 @@ const Experience = (props) => {
         <>
             <Container id="experience">
                 <h3>Experience:</h3>
-                <ExperienceCard
+                <Row>
+                    <Col lg="auto" md="auto">
+                        <Exp
+                            key="webmd"
+                            image="webmd.png"
+                            company="WebMD"
+                            date="Feb-Aug 2020"
+                            position="Software Development Intern"
+                        />
+                    </Col>
+                    <Col lg="auto" md="auto">
+                        <Exp
+                            key="cipass"
+                            image="cipass.png"
+                            company="CiPASS"
+                            date="Jun-Aug 2019"
+                            position="Virtual Reality Research Intern"
+                        />
+                    </Col>
+                </Row>
+
+
+                {/* <ExperienceCard
                     key="webmd"
                     image="webmd.png"
                     company="WebMD"
@@ -34,7 +57,7 @@ const Experience = (props) => {
                                 the amount of passengers and random events in the subway. I also worked with a partner
                                 to put in realtime heart rate monitoring using a fitbit watch."
                     tech="Unity Game Engine, C#, Python"
-                />
+                /> */}
             </Container>
         </>
     )
