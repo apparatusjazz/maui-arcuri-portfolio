@@ -8,25 +8,24 @@ const About = (props) => {
     return (
         <>
             <Container id="about">
-                <h4>Hi, I'm...</h4>
-                <h1>Maui Arcuri</h1>
+                <h4 className="greeting">Hi, I'm...</h4>
+                <h1 className="name">Maui Arcuri</h1>
                 <div className="wrap">
                     <img className="personal-img" src="maui.png" />
                     <p>
-                        I'm an incoming Computer Science graduate (2021) at the City College of New York.
+                        I'm originally from Hawaii. I'm an incoming Computer Science graduate (2021) at the City College of New York.
                         I enjoy web development and design.
                         In my free time, I dabble in making jazz music, trying new cooking recipes, or I'm out skateboarding.
-                        I'm currently searching for a full time software development position.
                     <br></br><br></br>
-                    I aspire to work on and create music related software. In the past, I've had various successes and failures
-                    in entrepreneurial ventures such as attempting to start a T-shirt business on Hawaiian landscapes, to
-                    making jazz covers of video game and anime music, to buying and selling kitchen knives, and more. I hope to
-                    create a business in software in the future.
+                    I enjoy working on all types of software, but especially enjoy music software. In the past, I've had various successes and failures
+                    in entrepreneurial ventures such as attempting to start a T-shirt business, to trying to create a Hawaiian snack business,
+                    to buying and selling kitchen knives, and more. One day I would like to continue my entrepreneurship through software.
                 </p>
                 </div>
                 <div>
 
                     <a
+                        className="linkedin"
                         href="https://www.linkedin.com/in/maui-arcuri/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -35,6 +34,7 @@ const About = (props) => {
                         <LinkedInIcon />
                     </a>
                     <a
+                        className="github"
                         href="https://github.com/apparatusjazz"
                         target="_blank"
                         rel="noopener noreferrer"

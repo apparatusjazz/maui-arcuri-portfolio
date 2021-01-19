@@ -5,6 +5,9 @@ const Navigation = (props) => {
     return (
         <>
             <div className="header">
+                {/* <div className="logo-container"> */}
+                <img className="logo" src="mauilogo.png" />
+                {/* </div> */}
                 <div className="page-links">
                     <a href="#about" className="link">About</a>
                     <a href="#experience" className="link">Experience</a>

@@ -1,4 +1,22 @@
 body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: rgb(39, 39, 39);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    /* color: rgb(95, 149, 250); */
+    color: rgb(114, 114, 114);
+}
+
+.name {
+    color: rgb(39, 39, 39);
 }
 
 .block-row {
@@ -14,28 +32,43 @@ body {
     padding: 10px 0 10px 0;
 }
 
+.img-container {
+    height: 100px;
+}
 .experience-img {
-    width: 80px;
-    padding-top: 10px;
+    height: 50px;
+    padding: 8px;
+    margin: auto;
+    display: block;
 }
 
-.experience-card {
-    padding: 15px 0 15px 0;
+.exp-card {
+    /* -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777; */
+    box-shadow: 0px 2px 11px rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.info {
+    padding: 8px;
 }
 
 .personal-img {
-    width: 250px;
+    width: 220px;
     float: right;
+    margin-left: 30px;
 }
 
 .project-card {
-    /* max-width: 330px; */
-    /* border: solid;
-    border-radius: 10px; */
-    /* margin: 20px 20px 20px 20px;
-    padding: 10px 30px 10px 30px; */
+
     max-width: 450px;
-    padding: 5px 5px 5px 5px;
+    margin: 15px 15px 15px 0px;
+    padding: 10px;
+    box-shadow: 0px 2px 11px rgb(187, 187, 187);
+    border-radius: 10px;
 }
 
 .project-img {
@@ -63,8 +96,9 @@ body {
     top: 0;
     height: 40px;
     width: 100%;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255);
     z-index: 1;
+    /* text-align: center; */
 }
 
 .link {
@@ -75,4 +109,50 @@ body {
 .page-links {
     padding-top: 8px;
     text-align: center;
+    display: inline-block;
+}
+
+.github {
+    color: black;
+    margin-right: 10px;
+}
+
+.linkedin {
+    color: #2867B2;
+    margin-right: 10px;
+}
+
+.logo {
+    height: 30px;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.main {
+    padding: 0 10% 0 10%;
+}
+
+#about {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#experience {
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        padding-right: 5px;
+        height: 25px;
+    }
+
+    .personal-img {
+        width: 180px;
+        float: right;
+    }
+
+    .main {
+        padding: 0 1% 0 1%;
+    }
 }
