@@ -89,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 3px;
     margin-left: 3px;
     margin-right: 3px;
+    background-color: rgb(77, 77, 77);
+    border-color: rgb(77, 77, 77);
+    color: white;
 }
 
 .header {
