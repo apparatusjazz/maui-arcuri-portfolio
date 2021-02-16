@@ -12,6 +12,15 @@ const Experience = (props) => {
                 <Row>
                     <Col lg="auto" md="auto">
                         <Exp
+                            key="columbia"
+                            image="columbia.png"
+                            company="Columbia University IT"
+                            date="Feb 2021 - Present"
+                            position="Software Development Intern"
+                        />
+                    </Col>
+                    <Col lg="auto" md="auto">
+                        <Exp
                             key="webmd"
                             image="webmd.png"
                             company="WebMD"
