@@ -14,10 +14,10 @@ const About = (props) => {
                     <img className="personal-img" src="maui.png" />
                     <p>
                         I'm originally from Hawaii. I'm an incoming Computer Science graduate (2021) at the City College of New York.
-                        I enjoy web development and design.
                         In my free time, I dabble in making jazz music, trying new cooking recipes, or I'm out skateboarding.
                     <br></br><br></br>
-                    I enjoy working on all types of software, but especially enjoy music software. In the past, I've had various successes and failures
+                    I enjoy working on all types of software, but especially enjoy collaboration and contributing ideas on interesting projects.
+                     In the past, I've had various successes and failures
                     in entrepreneurial ventures such as attempting to start a T-shirt business, to trying to create a Hawaiian snack business,
                     to buying and selling kitchen knives, and more. One day I would like to continue my entrepreneurship through software.
                 </p>

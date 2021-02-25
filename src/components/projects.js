@@ -55,7 +55,7 @@ const Projects = (props) => {
                                 image="jazzapparatus.png"
                                 title="Jazz Apparatus"
                                 content="Music gear documentation website with a focus on jazz guitarists. A project I created in high school 
-                        when I first became interested in business. Many first rank pages on Google search for &#39;(jazz guitarist's name) gear&#39;."
+                        when I first became interested in business. Many first rank pages on Google; search for &#39;(jazz guitarist's name) gear&#39;."
                                 link="http://www.jazzapparatus.com/"
                                 tech={["Wordpress", "Amazon Affiliate", "Adwords"]}
                             />
