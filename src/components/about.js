@@ -13,13 +13,15 @@ const About = (props) => {
                 <div className="wrap">
                     <img className="personal-img" src="maui.png" />
                     <p>
-                        I'm originally from Hawaii. I'm an incoming Computer Science graduate (2021) at the City College of New York.
+                        I'm originally from Hawaii. I'm a Computer Science graduate (2021) at the City College of New York.
                         In my free time, I dabble in making jazz music, trying new cooking recipes, or I'm out skateboarding.
                     <br></br><br></br>
-                    I enjoy working on all types of software, but especially enjoy collaboration and contributing ideas on interesting projects.
-                     In the past, I've had various successes and failures
-                    in entrepreneurial ventures such as attempting to start a T-shirt business, to trying to create a Hawaiian snack business,
-                    to buying and selling kitchen knives, and more. One day I would like to continue my entrepreneurship through software.
+                    I'm a diligent and passionate learner who wants to help others and make difference. I love programming for the 
+                    creative ability to combine multiple disciplines and ideas like music and other interests into an application 
+                    with unlimited possibilities. I've worked as a software developer intern at multiple companies and I've learned 
+                    that I have a passion for learning new things and solving problems.
+                    <br></br><br></br>
+                    On the side, I've been able to integrate my love for jazz music into multiple programming projects. I also have an entrepreneurial interest and would like to work on interesting side projects in the future.
                 </p>
                 </div>
                 <div>
