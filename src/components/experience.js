@@ -15,7 +15,7 @@ const Experience = (props) => {
                             key="columbia"
                             image="columbia.png"
                             company="Columbia University IT"
-                            date="Feb 2021 - Present"
+                            date="Feb 2021 - May 2021"
                             position="Software Development Intern"
                         />
                     </Col>
