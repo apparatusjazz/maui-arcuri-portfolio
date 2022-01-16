@@ -1,7 +1,5 @@
 import React from 'react';
-import { Col, Container, div } from 'react-bootstrap';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+import { Container } from 'react-bootstrap';
 
 const ProjectCard = (props) => {
 
@@ -15,7 +13,7 @@ const ProjectCard = (props) => {
                 <div>
                     {/* <Col md="auto" lg="auto" sm="auto" xs="auto"> */}
                     <div>
-                        <img className="project-img" src={props.image} />
+                        <img className="project-img" src={props.image} alt="Maui head shot" />
                     </div>
 
                     <div className="description">

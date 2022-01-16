@@ -7,7 +7,7 @@ const Exp = (props) => {
         <>
             <Container className="exp-card">
                 <Row className="img-container">
-                    <img className="experience-img" src={props.image} />
+                    <img className="experience-img" src={props.image} alt={`${props.company} logo`} />
                 </Row>
                 <div className="info">
                     <Row>

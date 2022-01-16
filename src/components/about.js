@@ -11,18 +11,18 @@ const About = (props) => {
                 <h4 className="greeting">Hi, I'm...</h4>
                 <h1 className="name">Maui Arcuri</h1>
                 <div className="wrap">
-                    <img className="personal-img" src="maui.png" />
+                    <img className="personal-img" src="maui.png" alt="personal head shot" />
                     <p>
                         I'm originally from Hawaii. I'm a Computer Science graduate (2021) at the City College of New York.
-                        In my free time, I dabble in making jazz music, trying new cooking recipes, or I'm out skateboarding.
-                    <br></br><br></br>
-                    I'm a diligent and passionate learner who wants to help others and make difference. I love programming for the 
-                    creative ability to combine multiple disciplines and ideas like music and other interests into an application 
-                    with unlimited possibilities. I've worked as a software developer intern at multiple companies and I've learned 
-                    that I have a passion for learning new things and solving problems.
-                    <br></br><br></br>
-                    On the side, I've been able to integrate my love for jazz music into multiple programming projects. I also have an entrepreneurial interest and would like to work on interesting side projects in the future.
-                </p>
+                        In my free time, I dabble in making jazz music, weightlifting, trying new cooking recipes, or I'm out skateboarding.
+                        <br></br><br></br>
+                        I'm a diligent and passionate learner who wants to help others and make difference. I love programming for the
+                        creative ability to combine multiple disciplines and ideas like music and other interests into an application
+                        with unlimited possibilities. I've worked as a software developer at multiple companies and I've learned
+                        that I have a passion for learning new things and solving problems.
+                        <br></br><br></br>
+                        On the side, I've been able to integrate my love for jazz music into multiple programming projects. I also have an entrepreneurial interest and would like to work on interesting side projects in the future.
+                    </p>
                 </div>
                 <div>
 

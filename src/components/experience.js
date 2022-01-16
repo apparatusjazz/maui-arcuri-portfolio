@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Exp from './exp';
-import ExperienceCard from './experience-card';
 
 const Experience = (props) => {
 
@@ -12,10 +11,19 @@ const Experience = (props) => {
                 <Row>
                     <Col lg="auto" md="auto">
                         <Exp
+                            key="credera"
+                            image="credera.png"
+                            company="Credera"
+                            date="July 2021 - Present"
+                            position="Technology Consultant"
+                        />
+                    </Col>
+                    <Col lg="auto" md="auto">
+                        <Exp
                             key="columbia"
                             image="columbia.png"
                             company="Columbia University IT"
-                            date="Feb 2021 - May 2021"
+                            date="Feb - May 2021"
                             position="Software Development Intern"
                         />
                     </Col>
@@ -24,7 +32,7 @@ const Experience = (props) => {
                             key="webmd"
                             image="webmd.png"
                             company="WebMD"
-                            date="Feb-Aug 2020"
+                            date="Feb - Aug 2020"
                             position="Software Development Intern"
                         />
                     </Col>
@@ -33,7 +41,7 @@ const Experience = (props) => {
                             key="cipass"
                             image="cipass.png"
                             company="CiPASS"
-                            date="Jun-Aug 2019"
+                            date="Jun - Aug 2019"
                             position="Virtual Reality Research Intern"
                         />
                     </Col>
