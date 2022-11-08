@@ -14,7 +14,7 @@ const About = (props) => {
                     <img className="personal-img" src="maui.png" alt="personal head shot" />
                     <p>
                         I'm originally from Hawaii. I'm a Computer Science graduate (2021) at the City College of New York.
-                        In my free time, I dabble in making jazz music, weightlifting, trying new cooking recipes, or I'm out skateboarding.
+                        In my free time, I dabble in making jazz music, weightlifting, Polynesian dance, or I'm out skateboarding.
                         <br></br><br></br>
                         I'm a diligent and passionate learner who wants to help others and make difference. I love programming for the
                         creative ability to combine multiple disciplines and ideas like music and other interests into an application

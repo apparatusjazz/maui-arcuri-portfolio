@@ -15,7 +15,7 @@ const Experience = (props) => {
                             image="credera.png"
                             company="Credera"
                             date="July 2021 - Present"
-                            position="Technology Consultant"
+                            position="Front-End Developer"
                         />
                     </Col>
                     <Col lg="auto" md="auto">
