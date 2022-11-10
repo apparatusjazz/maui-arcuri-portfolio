@@ -7,7 +7,7 @@ const Projects = (props) => {
     return (
         <>
             <Container id="projects">
-                <h3>Projects:</h3>
+                <h2>Projects:</h2>
                 <div className="projects">
                     <Row>
                         <Col lg={6} md={6}>

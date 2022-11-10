@@ -17,6 +17,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .name {
     color: rgb(39, 39, 39);
+    line-height: 1;
+}
+.job-title {
+    font-size: 1.5rem;
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+.name-info {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
 }
 
 .block-row {
@@ -147,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 30px;
 }
 
